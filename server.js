@@ -15,6 +15,6 @@ app.listen(process.env.PORT,()=>{
 
 
 app.use(cors({
-  origin: "http://localhost:5173", 
+  origin: "https://bidauction.netlify.app", 
   credentials: true,
 }));  //its temp code time of frontend
